@@ -1,0 +1,14 @@
+{
+  "NAME": "Groundworks Fuel & Fire",
+  "VERSION": {
+    "MAJOR": 1,
+    "MINOR": 0,
+    "PATCH": 0
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 12,
+    "PATCH": 5
+  },
+  "DOWNLOAD": "https://github.com/harry-davison-bulven/groundworks-fuel-fire/releases/latest"
+}

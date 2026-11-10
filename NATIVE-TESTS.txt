@@ -2,21 +2,34 @@ Standalone stock-only native integration test. Controlled tank fills, punctures,
 PASS standalone fuel runtime loaded
 PASS native ordinary stock-prefab module coverage
 PASS zero original custom part definitions required
-PASS four stock fixture parts load
+PASS five stock fixture parts load
 PASS uncrewed stock-only three-tank fixture
 PASS flight computer ready on stock probe without original parts
 PASS normal SAS hold command works
 PASS abort relinquishes guidance and cuts throttle
 PASS landing rejects a grounded tank bench
+PASS native stock inventory accepts a repair kit
+PASS repair cost consumes exactly one real stock inventory item before=1 after=0
+PASS empty inventory cannot supply unlimited repairs
+PASS alpha settings migrate with safe v1 defaults
+PASS custom profiles load from native GameDatabase without dependencies
 PASS puncture drains only its tank and updates native resource
 PASS full, low and empty tank flow follows actual content
 PASS cold leaks do not ignite automatically
 PASS spark ignites fuel while empty tank remains unlit
 PASS native shaders and quantity-scaled fuel visuals work
+PASS native fire-off mode preserves tank leakage but stops combustion
+PASS repair event cannot be invoked from an uncrewed cockpit to bypass EVA requirements
+PASS repair is not exposed as an in-cockpit magic fix
 PASS native module save/load retains leak state
 PASS oxidizer-only vent does not create a fuel fire
 PASS empty native failure adds no custom fuel reservoir
 PASS native part failure transfers exactly remaining finite fuel
 PASS native destruction and explosion behaviour are not patched
 PASS physical external contact starts a leak through the production collision handler
-STANDALONE STOCK-ONLY INTEGRATION COMPLETE
+PASS fresh native Game.Updated snapshot writes the live vessel state
+PASS remaining stock fixture survives fresh native saved-state reload
+PASS saved leak severity, finite counters and residual vapour reload
+PASS native reload never restores escaped fuel
+PASS new settings persist in native ConfigNode format
+FUEL V1 STOCK INTEGRATION COMPLETE

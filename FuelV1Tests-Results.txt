@@ -1,0 +1,22 @@
+PASS sealed leak stops new fuel loss while residual vapour disperses
+PASS sealed residual vapour preserves the mass ledger
+PASS already released vapour can finish burning after a patch
+PASS fire-off mode stops burning and heating without disabling leaks
+PASS fire toggle does not create or delete fuel
+PASS leak difficulty scales released mass independently of visual quality
+PASS configured fuel/oxidizer mass ratio limits vacuum burning
+PASS mixed residual reaction preserves total mass
+PASS invalid timesteps cannot drain or manufacture fuel
+PASS invalid severity cannot corrupt a reservoir
+PASS nonfinite flow cannot create invalid particle sizes
+PASS tiny debris does not act like a terrain strike on a massive tank
+PASS effective collision mass distinguishes mobile bodies from terrain
+PASS gentle and invalid contacts do not puncture tanks
+PASS eligible minor cool leak can be patched
+PASS burning, hot and severe damage cannot be patched
+PASS repair requires an engineer, proximity and a finite repair kit
+PASS partial custom profile changes preserve unspecified defaults
+PASS malformed profile values do not poison working fuel settings
+PASS loading a cloud-free state clears stale vapour rather than duplicating it
+PASS last traces extinguish instead of leaving a frozen permanent vapour fire
+FUEL V1 REGRESSION CHECKS COMPLETE

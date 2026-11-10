@@ -1,0 +1,12 @@
+PASS fresh empty tank cannot leak or burn
+PASS fill-dependent leakage rate
+PASS cold unignited fuel only leaks
+PASS burn intensity follows actual released fuel mass
+PASS visual fire scale is monotonic with burn rate
+PASS fuel without oxygen supply does not burn in vacuum
+PASS stored oxidizer supports the abstract vacuum reaction
+PASS inert liquid never ignites
+PASS fluid mass ledger closes without creating fuel
+PASS finite supply exhausts and fire extinguishes
+PASS leakage agrees across representative fixed timesteps
+FUEL MODEL CHECKS COMPLETE
